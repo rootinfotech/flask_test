@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Stulist</title>
+</head>
+<body>
+<h2>student data</h2>
+{% for stu in studentlist %}
+{{stu.sid}}
+{{stu.sname}}
+{{stu.saddr}}<br>
+{% endfor %}
+</body>
+</html>
